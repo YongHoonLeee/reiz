@@ -1,35 +1,26 @@
 
   #background {
-    background-image: url(image/reizbackground.jpg);
-    background-repeat:no-repeat;
-    background-origin:content-box;
+    /*background-image: url(image/reizbackground_bg.jpg);*/
+    background-color:#ccae62;
+    /* background-repeat:no-repeat; */
     background-size: 100%;
     background-position:center;
-    margin: 0px auto;
-    padding: 0px;
-  }
-  h1{
-      color: #2d3436;
+    margin: 5px auto;
+    padding: 5px;
   }
   #logo-back{
-    filter: alpha(opacity=80);
-    opacity: 0.5;
-      background-color: #dfe6e9;
+    margin: 5px;
+    font-family:arial;
+    background-color: rgba(255,255,255,0.5);
   }
-#back_img{
-    filter:alpha(opacity=100);
-    opacity: 1;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+ 
 img{
-    filter:alpha(opacity=100);
-    opacity: 1;
+
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
   #header {
       
     padding: 20px;
@@ -47,8 +38,9 @@ img{
     border: 1px solid #bcbcbc;
   }
   #footer {
-    padding: 10px;
-    border: 1px solid #bcbcbc;
+    font-size: small;
+    padding: 5px;
+    
   }
   @media ( min-width: 481px ) {
     #container {
@@ -66,3 +58,36 @@ img{
       clear: both;
     }
   }
+  .centered {
+    display: table;
+    margin-left: auto;
+    margin-right: auto; 
+    }
+
+  .myButton {
+    margin: 5px;
+    box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+    background-color:#768d87;
+    border-radius:5px;
+    border:1px solid #566963;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:11px 23px;
+    text-decoration:none;
+    text-shadow:0px -1px 0px #2b665e;
+  }
+  .myButton:hover {
+    background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+    background-color:#6c7c7c;
+  }
+  .myButton:active {
+    position:relative;
+    top:1px;
+  }
+  
+          
